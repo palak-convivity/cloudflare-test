@@ -19,7 +19,6 @@ const page = async ({ params }: any) => {
     );
     return response.json();
   };
-  console.log(getdata());
   return <div>{JSON.stringify(await getdata())}</div>;
 };
 
